@@ -1,6 +1,7 @@
 # Execution of this Script
 
 Python Installation:
+
 Ensure Python 3.x is installed on your computer. You can download it from python.org.
 
 SMTP Credentials:
