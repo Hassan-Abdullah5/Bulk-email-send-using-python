@@ -11,7 +11,7 @@ EMAIL_ADDRESS = '' #Your email address from you want to send emails
 EMAIL_PASSWORD = ''  # Replace with your generated app password
 
 # CSV file path
-CSV_FILE = 'test.csv'
+CSV_FILE = 'Test.csv'
 
 # Email content template
 subject = 'Transform Your Business with ARF Services'
