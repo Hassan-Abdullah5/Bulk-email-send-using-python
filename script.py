@@ -5,31 +5,21 @@ import csv
 import time
 
 # Email configuration
-SMTP_SERVER = 'smtp.gmail.com'
+SMTP_SERVER = 'smtp.gmail.com' 
 SMTP_PORT = 587  # Gmail's TLS port
-EMAIL_ADDRESS = 'hassanabdullah5353@gmail.com'
-EMAIL_PASSWORD = 'xnfpppdqmgbqulns'  # Replace with your generated app password
+EMAIL_ADDRESS = '' #Your email address from you want to send emails
+EMAIL_PASSWORD = ''  # Replace with your generated app password
 
 # CSV file path
-CSV_FILE = 'chapter_1/test.csv'
+CSV_FILE = 'test.csv'
 
 # Email content template
 subject = 'Transform Your Business with ARF Services'
 message_template = """
 Dear {first_name} {last_name},
 
-I hope you're doing well. I wanted to reach out and introduce ARF Services to you. We specialize in creating digital solutions that can help your business grow and succeed.
+# Write email content here.....
 
-At ARF Services, we're passionate about turning ideas into reality. Whether you need to improve your online presence, streamline operations, or create eye-catching designs, our team is here to help.
-
-We understand the challenges businesses face today and are committed to delivering solutions that go beyond expectations. I would love to discuss how we can specifically help your business.
-
-Could we set up a quick call?
-
-Best regards,
-
-ARF Services Team
-[Website: https://arfservices.com/]
 """
 
 def send_email(first_name, last_name, email):
