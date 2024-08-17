@@ -8,6 +8,7 @@ You need a Gmail account and an app password. Generate an app password if you ha
 
 Clone the Repository:
 git clone https://github.com/Hassan-Abdullah5/Bulk-email-send-using-python.git
+
 cd Bulk-email-send-using-python
 
 Configure Email Settings:
